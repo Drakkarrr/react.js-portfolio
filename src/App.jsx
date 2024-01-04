@@ -11,17 +11,17 @@ const App = () => {
   return (
     <div>
       <Cursor />
-      <section id='Homepage'>
+      <section id='Home'>
         <Navbar />
         <Hero />
       </section>
-      <section id='Services'>
+      <section id='About'>
         <Parallax type='services' />
       </section>
       <section>
         <Services />
       </section>
-      <section id='Portfolio'>
+      <section id='Projects'>
         <Parallax type='portfolio' />
       </section>
       <Portfolio />
