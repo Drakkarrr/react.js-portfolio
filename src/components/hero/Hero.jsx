@@ -49,10 +49,8 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>Junrey Lañas</motion.h1>
           <motion.h2 variants={textVariants}>Junior Developer</motion.h2>
           <motion.div variants={textVariants} className='buttons'>
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>About Me</motion.button>
+            <motion.button variants={textVariants}>Reach Me</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
