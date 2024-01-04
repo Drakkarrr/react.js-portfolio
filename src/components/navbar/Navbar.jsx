@@ -21,7 +21,10 @@ const Navbar = () => {
             rel='noreferrer'>
             <img src='/facebook.png' alt='facebook icon' />
           </a>
-          <a href='#'>
+          <a
+            href='https://github.com/Drakkarrr'
+            target='_blank'
+            rel='noreferrer'>
             <img src='/github.png' alt='github icon' />
           </a>
           <a href='#'>
