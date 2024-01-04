@@ -15,17 +15,17 @@ const Navbar = () => {
           DRAKKAR
         </motion.span>
         <div className='social'>
-          <a href='#'>
-            <img src='/facebook.png' alt='' />
+          <a
+            href='https://www.facebook.com/profile.php?id=100010980994040'
+            target='_blank'
+            rel='noreferrer'>
+            <img src='/facebook.png' alt='facebook icon' />
           </a>
           <a href='#'>
-            <img src='/instagram.png' alt='' />
+            <img src='/github.png' alt='github icon' />
           </a>
           <a href='#'>
-            <img src='/youtube.png' alt='' />
-          </a>
-          <a href='#'>
-            <img src='/dribbble.png' alt='' />
+            <img src='/linkedin.png' alt='linkedin icon' />
           </a>
         </div>
       </div>
