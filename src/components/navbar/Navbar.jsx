@@ -10,8 +10,9 @@ const Navbar = () => {
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}>
-          Junrey Lañas
+          transition={{ duration: 0.5 }}
+          style={{ fontSize: '1.3rem' }}>
+          DRAKKAR
         </motion.span>
         <div className='social'>
           <a href='#'>
