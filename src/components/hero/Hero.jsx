@@ -65,7 +65,7 @@ const Hero = () => {
         variants={sliderVariants}
         initial='initial'
         animate='animate'>
-        Developer x Designer x Coder
+        Junrey Lañas
       </motion.div>
       <div className='imageContainer'>
         <img src='/hero.png' alt='' />
