@@ -35,8 +35,9 @@ const Services = () => {
       animate={'animate'}>
       <motion.div className='textContainer' variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          An aspiring developer who possess a strong interest in emerging
+          <br />
+          technologies and software development trends.
         </p>
         <hr />
       </motion.div>
@@ -44,15 +45,17 @@ const Services = () => {
         <div className='title'>
           <img src='/people.webp' alt='' />
           <h1>
-            <motion.b whileHover={{ color: 'orange' }}>Unique</motion.b> Ideas
+            Your {''}
+            <motion.b whileHover={{ color: 'orange' }}>Future</motion.b>{' '}
+            developer
           </h1>
         </div>
         <div className='title'>
           <h1>
-            <motion.b whileHover={{ color: 'orange' }}>For Your</motion.b>{' '}
-            Business.
+            <motion.b whileHover={{ color: 'orange' }}>Software </motion.b>{' '}
+            Engineer!
           </h1>
-          <button>Who i am?</button>
+          <button>Let&apos;s Connect!</button>
         </div>
       </motion.div>
       <motion.div className='listContainer' variants={variants}>
@@ -61,46 +64,39 @@ const Services = () => {
           whileHover={{ background: 'lightgray', color: 'black' }}>
           <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            I am a self-taught developer who is passionate about learning new
+            technologies and building web applications.
           </p>
           <button>Go</button>
         </motion.div>
         <motion.div
           className='box'
           whileHover={{ background: 'lightgray', color: 'black' }}>
-          <h2>Web Development</h2>
+          <h2>Cloud Technologies</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            I am enthusiastic about crafting innovative applications that
+            harness the flexibility and scalability offered by modern cloud
+            platforms.
           </p>
           <button>Go</button>
         </motion.div>
         <motion.div
           className='box'
           whileHover={{ background: 'lightgray', color: 'black' }}>
-          <h2>Web Development</h2>
+          <h2>Blockchain</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Fueling my curiosity, I am on a journey to unravel the potential of
+            blockchain technology. As a self-taught developer
           </p>
           <button>Go</button>
         </motion.div>
         <motion.div
           className='box'
           whileHover={{ background: 'lightgray', color: 'black' }}>
-          <h2>Web Development</h2>
+          <h2>Enterprise Apps</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            As a self-taught developer, I am driven by the ambition to craft
+            sophisticated apps that streamline business processes
           </p>
           <button>Go</button>
         </motion.div>
