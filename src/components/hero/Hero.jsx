@@ -1,3 +1,4 @@
+import TypewriterComponent from 'typewriter-effect';
 import './hero.scss';
 import { motion } from 'framer-motion';
 
@@ -47,7 +48,20 @@ const Hero = () => {
           initial='initial'
           animate='animate'>
           <motion.h1 variants={textVariants}>Junrey Lañas</motion.h1>
-          <motion.h2 variants={textVariants}>Junior Developer</motion.h2>
+          <motion.h2 variants={textVariants}>
+            <TypewriterComponent
+              options={{
+                loop: true,
+                autoStart: true,
+                strings: [
+                  'Junior Developer',
+                  'Tech Enthuasiast',
+                  'TypeScript Evangelist',
+                ],
+              }}
+            />{' '}
+          </motion.h2>
+
           <motion.div variants={textVariants} className='buttons'>
             <motion.button variants={textVariants}>About Me</motion.button>
             <motion.button variants={textVariants}>Reach Me</motion.button>
