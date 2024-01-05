@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import './portfolio.scss';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
+import { Link, useNavigate } from 'react-router-dom';
 
 const items = [
   {
@@ -45,7 +46,15 @@ const Single = ({ item }) => {
           <motion.div className='textContainer' style={{ y }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <button onClick={() => console.log(item.link)}>
+              <a
+                className='link'
+                href={item.link}
+                target='_blank'
+                rel='noreferrer'>
+                Visit Site
+              </a>
+            </button>
           </motion.div>
         </div>
       </div>
