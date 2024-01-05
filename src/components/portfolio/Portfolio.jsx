@@ -13,7 +13,7 @@ const items = [
   {
     id: 2,
     title: 'Izteem gamehub',
-    img: '../public/izteem.png',
+    img: 'https://github.com/Drakkarrr/react.js-portfolio/blob/main/public/izteem.png?raw=true',
     link: 'https://izteem-gamehub.vercel.app/',
     desc: 'A simple game marketplace platform built with react and TypeScript for UI and rawg API.',
   },
