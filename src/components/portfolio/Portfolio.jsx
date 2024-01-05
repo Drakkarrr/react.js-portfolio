@@ -8,7 +8,7 @@ const items = [
     id: 1,
     title: 'D-prompt-AI',
     img: 'https://github.com/Drakkarrr/D-prompt-AI/raw/main/public/ui-screenshot/landing-page.png',
-    link: 'https://d-prompt-ai.vercel.app/',
+    link: 'https://drakkar-prompt-ai.vercel.app/',
     desc: 'An Open source Generative AI web-based app, an unprecedented platform that harnesses the boundless potential of artificial intelligence to ignite your creative spark!',
   },
   {
