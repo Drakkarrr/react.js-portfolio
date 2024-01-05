@@ -59,13 +59,36 @@ const Hero = () => {
                   'TypeScript Evangelist',
                 ],
               }}
-            />{' '}
+            />
           </motion.h2>
-
           <motion.div variants={textVariants} className='buttons'>
-            <motion.button variants={textVariants}>About Me</motion.button>
-            <motion.button variants={textVariants}>Reach Me</motion.button>
+            {/* <motion.button variants={textVariants}>About Me</motion.button> */}
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
+            <motion.button variants={textVariants}>
+              <hr />
+            </motion.button>
           </motion.div>
+
           <motion.img
             variants={textVariants}
             animate='scrollButton'
