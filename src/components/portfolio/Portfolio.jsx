@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import './portfolio.scss';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
-import { Link, useNavigate } from 'react-router-dom';
 
 const items = [
   {
