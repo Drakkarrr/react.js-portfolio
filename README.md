@@ -1,4 +1,5 @@
-# React + Vite
+# Iamjunrey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My web portfolio using React.js, Sass and Framer-motion
 
+## Feel free to clone and use as template ^^
